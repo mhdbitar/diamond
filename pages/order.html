@@ -5,6 +5,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 
     <img src="../img/p4.jpeg" style="margin: auto 35%;">
 
-    <form action="/action_page.php" style="border:1px solid #ccc">
+    <form action="../index.html" style="border:1px solid #ccc">
 	  <div class="container">
 	    <h1>Order</h1>
 	    <p>Please fill in this form to order the product.</p>
@@ -41,10 +42,32 @@
 	    <textarea id="address" name="address" placeholder="Enter Custoemr Address" style="height:200px"></textarea>
 
 	    <hr>
-	    <h3>Payment</h3>
+	    
+		<div class="paymentCont">
+			<div class="headingWrap">
+				<h3 class="headingTop text-center">Select Your Payment Method</h3>	
+			</div>
+			<div class="paymentWrap">
+				<div class="btn-group paymentBtnGroup btn-group-justified" data-toggle="buttons">
+					<label class="btn paymentMethod active">
+					    <div class="method visa"></div>
+					    <input type="radio" name="options" checked> 
+					</label>
+		            <label class="btn paymentMethod">
+		            	<div class="method master-card"></div>
+		                <input type="radio" name="options"> 
+		            </label>
+		            <label class="btn paymentMethod">
+	            		<div class="method amex"></div>
+		                <input type="radio" name="options">
+		            </label>
+		        </div>  
+		    </div>
+		    </div>
+		
+	</div>
+</div>
 
-	    <label for="number"><b>Card Number</b></label>
-	    <input type="text" id="number"" name="number" placeholder="Enter Card Number">
 	    <div class="clearfix">
 	      <button type="submit" class="signupbtn">Order</button>
 	    </div>
