@@ -2,28 +2,11 @@
 <html>
 <head>
 	<title>Diamond Store</title>
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<style type="text/css">
-		.cards {
-			margin: auto 10%;
-		}
 		.card {
-			display: inline-block;
-		    width: 16%;
-			border: solid 1px #ccc;
-			margin: 5px auto;
-			text-align: center;
-		}
-
-		.card a {
-			text-decoration: none;
-		    color: #386775;
-		    font-size: 20px;
-		}
-
-		.container {
-		    padding: 2px 16px;
+			margin-top: 5%;
 		}
 	</style>
 </head>
@@ -31,57 +14,108 @@
 
 	<div class="navigation-bar">
         <div id="navigation-container">
-            <img src="../img/logo.png" style="width: 80px;"> 
+        	<a href="../index.html">
+	            <img src="../img/logo.png" style="width: 80px;">         		
+        	</a>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="register.html">Regster</a></li>
+                <li><a href="register.html">Register</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="contact.html">Get in Touch</a></li>
             </ul>
         </div>
     </div>
 
-    <h2>Products</h2>
+    <div class="container mt-5">
+	    <h2>Products</h2>
+    	<div class="row">
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p1.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Necklace</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
 
-    <div class="cards">
-    	<div class="card">
-		  <img src="../img/p1.jpg" alt="Avatar" style="width:100%">
-		  <div class="container">
-		    <h4><b>Necklace</b></h4> 
-		    <a href="order.html">Order</a> 
-		  </div>
-		</div>
-		<div class="card">
-		  <img src="../img/p3.jpg" alt="Avatar" style="width:100%">
-		  <div class="container">
-		    <h4><b>Diamond Ring</b></h4> 
-		    <a href="order.html">Order</a> 
-		  </div>
-		</div>
-		<div class="card">
-		  <img src="../img/p4.jpeg" alt="Avatar" style="width:100%">
-		  <div class="container">
-		    <h4><b>Wedding Cages</b></h4> 
-		    <a href="order.html">Order</a> 
-		  </div>
-		</div>
-		<div class="card">
-		  <img src="../img/p5.jpg" alt="Avatar" style="width:100%">
-		  <div class="container">
-		    <h4><b>Golden Ring</b></h4> 
-		    <a href="order.html">Order</a> 
-		  </div>
-		</div>
-		<div class="card">
-		  <img src="../img/p6.jpg" alt="Avatar" style="width:100%">
-		  <div class="container">
-		    <h4><b>Golden Anklet</b></h4> 
-		    <a href="order.html">Order</a> 
-		  </div>
-		</div>
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p3.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Diamond Ring</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
 
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p4.jpeg">
+				  <div class="card-body">
+				    <h5 class="card-title">Wedding Cages</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p5.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Golden Ring</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p6.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Golden Anklet</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p7.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Necklace</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p8.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Earring</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+
+    		<div class="col-3">
+    			<div class="card">
+				  <img class="card-img-top" src="../img/p9.jpg">
+				  <div class="card-body">
+				    <h5 class="card-title">Earring</h5>
+				    <a href="details.html" class="btn btn-primary">Details</a>
+				  </div>
+				</div>
+    		</div>
+    	</div>
     </div>
+
+   	<br>
+   <footer>
+   		<p>All rights reserved.</p>
+   </footer> 	
 
 </body>
 </html>

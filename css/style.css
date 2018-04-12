@@ -87,10 +87,6 @@ button {
   width: 100%;
 }
 
-.container {
-    padding: 16px;
-}
-
 .clearfix::after {
     content: "";
     clear: both;
@@ -121,12 +117,6 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -152,6 +142,17 @@ input[type=submit]:hover {
   color: white;
 }
 
-.w3-card-4, .w3-hover-shadow:hover {
-    box-shadow: none; 
+.card-img-top {
+  height: 200px;
+}
+
+.card {
+  text-align: center;
+}
+
+footer {
+  background: #607d8b;
+  color: white;
+  text-align: center;
+  padding: 1%;
 }

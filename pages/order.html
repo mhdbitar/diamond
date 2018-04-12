@@ -3,17 +3,20 @@
 <head>
 	<title>Diamond Store</title>
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 
 	<div class="navigation-bar">
         <div id="navigation-container">
-            <img src="../img/logo.png" style="width: 80px;"> 
+            <a href="../index.html">
+	            <img src="../img/logo.png" style="width: 80px;">         		
+        	</a>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="products.html">Products</a></li>
-                <li><a href="register.html">Regster</a></li>
+                <li><a href="register.html">Register</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="contact.html">Get in Touch</a></li>
             </ul>
@@ -37,10 +40,20 @@
 	    <label for="address"><b>Address</b></label>
 	    <textarea id="address" name="address" placeholder="Enter Custoemr Address" style="height:200px"></textarea>
 
+	    <hr>
+	    <h3>Payment</h3>
+
+	    <label for="number"><b>Card Number</b></label>
+	    <input type="text" id="number"" name="number" placeholder="Enter Card Number">
 	    <div class="clearfix">
 	      <button type="submit" class="signupbtn">Order</button>
 	    </div>
 	  </div>
 	</form>
+
+	   <br>
+   <footer>
+   		<p>All rights reserved.</p>
+   </footer> 	
 </body>
 </html>
